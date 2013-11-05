@@ -1,0 +1,191 @@
+/*---------------------------------------------------------------------------
+    General Styling for the entire website
+--------------------------------------------------------------------------*/
+
+* {
+  border: none;
+}
+
+a:link, a:visited, a:hover, a:active  {
+    text-decoration:none;
+}
+
+body {
+    background-color: #E4F6F8;
+    font-size: 125%; /* Base font size: 14px */
+    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.429;
+    margin-left:auto;
+    margin-right:auto;
+    width:85%;
+    padding: 0;
+    text-align: left;
+}
+
+h1{
+    color: #62C2CC;
+    text-align: center;
+    width: 70%;
+    
+}
+
+h2 {
+    float: right;
+    color: #62C2CC;
+    font-family: Monospace;
+    
+}
+
+h3{
+    font-size: medium;
+    color: #F68B1F;
+}
+
+/*---------------------------------------------------------------------------
+    Styling for navagation  
+--------------------------------------------------------------------------*/
+
+nav ul{
+	margin: 0;
+	padding: 0 0 0 1em;
+}
+nav li{
+	list-style-type:none;
+        float: left;
+}
+nav a:link, nav a:visited{
+	color: #62C2CC;
+	text-decoration: none;
+	display: block;
+	margin: 1em;
+	padding: 3px;
+	
+}
+nav a:hover{
+	color: #F17022;
+}
+
+/*---------------------------------------------------------------------------
+    Styling for the home page  
+--------------------------------------------------------------------------*/
+
+.boxleft {
+    background-color: #FDB813;
+    color: #62C2CC;
+    height: 11em;
+    float: left;
+    border:2px ridge #FDB813;
+    width:25%;
+    margin-left: 10em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.boxleft h2{
+    float: left;
+}
+
+.boxleft h2 a:link, a:visted {
+    color: #62C2CC;
+}
+
+.boxleft input{
+    float: right;
+}
+
+
+.boxright{
+    background-color: #FDB813;
+    color: #62C2CC;
+    height: 11em;
+    float: left;
+    border:2px ridge #FDB813;
+    width:22%;
+    padding-right:3%;
+}
+
+.boxright input{
+    float: right;
+}
+
+.boxright form{
+    float: right;
+}
+
+.footer{
+    float: left;
+    width: 100%;
+    text-align: justify;
+}
+
+.footer p{
+    color: #62C2CC;
+}
+
+/*---------------------------------------------------------------------------
+    Styling for the sign up & login pages 
+--------------------------------------------------------------------------*/
+
+.outside{
+    color: #62C2CC;
+    height: auto;
+    margin: 1em;
+    float: left;
+    padding: 9em;
+}
+
+.outside input{
+    float: right;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+/*---------------------------------------------------------------------------
+    Styling for the view posts page  
+--------------------------------------------------------------------------*/
+
+time{
+    font-style: italic;
+    font-size: small;
+    color: #FDB813;
+    padding-left: 100px;
+}
+
+.name h3{
+    text-indent:75px;
+}
+
+.view p {
+    text-indent: 100px;
+}
+
+.change {
+    color: #F17022;
+    font-size: small;
+    padding-left: 100px;
+}
+
+/*---------------------------------------------------------------------------
+    Styling for the following users page   
+--------------------------------------------------------------------------*/
+
+.follow {
+    color: #62C2CC;
+}
+
+.unfollow {
+    color: #F17022;
+}
+
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+}
+
+
