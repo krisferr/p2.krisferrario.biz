@@ -6,14 +6,14 @@ class users_controller extends base_controller {
     }
     
     public function index() {
-        #echo "This is the index page";
-
+	
     }
     
     public function signup() {
        
         # Set up the view
         $this->template->content = View::instance('v_users_signup');
+	$this->template->title = "Sign Up";
 	
 	# Render the view
 	echo $this->template;
