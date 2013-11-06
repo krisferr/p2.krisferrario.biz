@@ -123,8 +123,8 @@ class users_controller extends base_controller {
 	
 	$data = Array('token' => $new_token);
 	
-	DB::instance(DB_NAME)->update('users', $data, 'WHERE user_id ='. $this->user->user_id);
-    
+	 DB::instance(DB_NAME)->update("users", $data, "WHERE token = '".$this->user->token."'");
+
 	#deletes cookie by resetting to back by one year.
 	setcookie('token', '', strtotime('-1 year'), '/');
 	
