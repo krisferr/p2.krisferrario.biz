@@ -32,7 +32,6 @@ A email designated to receive messages from the server. Examples:
 
 # Default DB name for this app
 	define('DB_NAME', "krisferr_p2_krisferrario_biz");
-        //define('DB_NAME', "krisferr_p2_krisferrario_biz"); 
 
 # Timezone
 	define('TIMEZONE', 'America/New_York');
