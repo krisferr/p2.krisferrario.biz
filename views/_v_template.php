@@ -21,7 +21,7 @@
 				<li><a href="/users/logout"> Get Out of Here</a></li>
 			<?php else: ?>
 				<li><a href="/users/signup">Sign Up</a></li>
-				<li><a href="/users/login">Login</a></lq>
+				<li><a href="/users/login">Login</a></li>
 			<?php endif; ?>
 			
 			
