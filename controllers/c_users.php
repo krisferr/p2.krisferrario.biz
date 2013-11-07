@@ -69,22 +69,14 @@ class users_controller extends base_controller {
 	# Reads the password  
 	$_POST['password'] = sha1(PASSWORD_SALT.$_POST['password']);
 	
-	# For testing
-	/*echo "<pre>";
-	print_r($_POST);
-	echo "</pre>";*/
 	
-	$q =
-		'SELECT token
-		FROM users
-		WHERE email = "'.$_POST['email'].'"
-		AND password = "'.$_POST['password'].'"';
-		
-		//echo $q;
+	 $q = "SELECT token 
+		FROM users 
+		WHERE email = '".$_POST['email']."' 
+		AND password = '".$_POST['password']."'";
 	
 	$token = DB::instance(DB_NAME)->select_field($q);
 	
-	echo $token;
 	
 	
 	# Success
